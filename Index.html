@@ -1,1 +1,50 @@
-
+<!DOCTYPE html>
+<html>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<head>
+	<title>Splash Screen</title>
+	<style>
+		body {
+			background-color: black;
+			font-family: Arial, sans-serif;
+			text-align: center;
+			margin: 0;
+			padding: 0;
+		}
+		
+		.splash-screen {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100vh;
+			background-color: #3498db;
+			color: #fff;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 48px;
+		}
+		
+		.splash-screen img {
+			
+			height: 100%;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body style="">
+	<div class="splash-screen">
+		<h2>DEV COIN</h2>
+		
+	</div>
+	
+	<script>
+		setTimeout(function() {
+			window.location.href = "home.html";
+		}, 3000);
+	</script>
+</body>
+</html>
