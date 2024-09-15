@@ -1,4 +1,4 @@
-let points = 0;
+let points = 💰 0;
 const clickButton = document.getElementById('click-button');
 const pointsDisplay = document.getElementById('points');
 
